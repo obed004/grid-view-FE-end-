@@ -1,0 +1,49 @@
+* {
+   margin: 4px;
+   box-sizing: border-box; 
+   @media (max-width 450px)
+}
+
+header{
+    border: 5px purple double;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(231, 199, 231);
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+nav{
+   
+}
+aside{
+    width: 100%;
+    background-color: rgb(183, 150, 214);
+    border: 5px double purple ;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 10px;
+    position: relative;
+    left: 800px; 
+    height: 250px; 
+    
+    text-align: center;
+}
+.content{
+    border: 5px double purple ;
+    border-radius: 10px;
+    background-color: rgb(217, 198, 235);
+    width: 400px;
+    position: absolute;
+    top: 95px;
+    height: 250px;padding: 10px;
+}
+.bottom{
+    border: 5px double purple;
+    border-radius: 10px;
+    background-color: rgb(179, 143, 212);
+    margin-top: 10px;
+    padding: 10px;
+}
+
